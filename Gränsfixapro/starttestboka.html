@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+
+<meta charset="utf-8">
+<meta name ="viewport" content "Widht = device-widht, initial-scale =1.0">
+<link rel="stylesheet" href="main.css" type="text/css">
+<link rel="stylesheet" href="kalendarium.css" type="text/css">
+
+
+
+<title>Namnlöst dokument</title>
+
+	</head>
+<body>
+
+
+
+
+
+
+
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+ 
+ <div class="centrera">
+  
+  <img src="Bilder/Logga.png" width="400" height="400" href="starttest.html">
+ 
+  
+   
+  
+ 
+     
+      <ul class="navbar">
+      <li><a href="starttest.html">Hem</a></li>
+      <li><a href="starttestboka.html">Boka</a></li>
+	  <li><a href="Event.html">Våra banor</a></li>
+      <li><a href="Lane 8 live.html">Lane-8-Live</a></li>
+      <li><a href="starttestomoss.html">Kontakt</a></li>
+    </ul>
+
+    
+    <table cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+    <div class="btn-group"> 
+	
+    <button type="button" onClick="" >Skrolla ner för att boka ett barnkalas</button>   
+	  </div>
+
+    <h1>Betalning</h1>
+    
+    <p>Välj alternativ</p>
+    
+    <select id="operators">
+	
+	<option value='1'>Ordinarie pris:     			    330 kronor</option>
+	<option value='2'>Rocklights:     				   360 kronor, Fredag & lördag 17:00-24:00</option>
+	<option value='3'>Drop-in:                           290 kronor, Måndag till fredag till 17:00, endast ej bokade banor</option>
+	<option value='4'>Familj (med barn under 18 år):     290 kronor, Gäller alla dagar & tider, fredag & lördag t.o.m. klockan 17:00</option>
+	<option value='5'>Ungdom (under 18 år):               195 kronor, Gäller måndag till fredag till 17:00, övrig tid se familjepris
+</option>
+	<option value='6'>Pensionär:                       220 kronor, Gäller måndag till fredag till 17:00, övrig tid se familjepris</option>
+	<option value='7'>Skohyra:                           25 kronor per person, ingen skohyra för de under 18 år
+</option>
+	
+
+	
+		
+</select>
+  <p>Fyll i din email och välj ett datum att köra på.</p>
+	  
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="email" required>
+ 
+   
+
+   <div id="cal">
+    <div id="jan" class="month">
+        <div id="feb" class="month">
+            <div id="mar" class="month">
+                <div id="apr" class="month">
+                    <div id="may" class="month">
+                        <div id="jun" class="month">
+                            <div id="jul" class="month">
+                                <div id="aug" class="month">
+                                    <div id="sep" class="month">
+                                        <div id="oct" class="month">
+                                            <div id="nov" class="month">
+                                                <div id="dec" class="month">
+               <div id="header">                                     
+                <h2 jan>January</h2>
+                <h2 feb>February</h2>
+                <h2 mar>March</h2>
+                <h2 apr>April</h2>
+                <h2 may>May</h2>
+                <h2 jun>June</h2>
+                <h2 jul>July</h2>
+                <h2 aug>August</h2>
+                <h2 sep>September</h2>
+                <h2 oct>October</h2>
+                <h2 nov>November</h2>
+                <h2 dec>December</h2>
+                
+                <a href="#feb" class="monthLink right" jan> &rarr; </a>
+                <a href="#jan" class="monthLink left" feb> &larr; </a>
+                <a href="#mar" class="monthLink right" feb> &rarr; </a>
+                <a href="#feb" class="monthLink left" mar> &larr; </a>
+                <a href="#apr" class="monthLink right" mar> &rarr; </a>
+                    
+                <a href="#mar" class="monthLink left" apr> &larr; </a>
+                <a href="#may" class="monthLink right" apr> &rarr; </a>
+                <a href="#apr" class="monthLink left" may> &larr; </a>
+                <a href="#jun" class="monthLink right" may> &rarr; </a>
+                <a href="#may" class="monthLink left" jun> &larr; </a>
+                <a href="#jul" class="monthLink right" jun> &rarr; </a>
+                <a href="#jun" class="monthLink left" jul> &larr; </a>
+                <a href="#aug" class="monthLink right" jul> &rarr; </a>
+                <a href="#jul" class="monthLink left" aug> &larr; </a>
+                <a href="#sep" class="monthLink right" aug> &rarr; </a>
+                <a href="#aug" class="monthLink left" sep> &larr; </a>
+                <a href="#oct" class="monthLink right" sep> &rarr; </a>
+                <a href="#sep" class="monthLink left" oct> &larr; </a>
+                <a href="#nov" class="monthLink right" oct> &rarr; </a>
+                <a href="#oct" class="monthLink left" nov> &larr; </a>
+                <a href="#dec" class="monthLink right" nov> &rarr; </a>
+                <a href="#nov" class="monthLink left" dec> &larr; </a>
+                    </div>
+<div id="numbers">                    
+<input type="radio" checked name="days" id="one"><label class="day" prop="1" for="one">1</label>
+<input type="radio" name="days" id="two"><label class="day" prop="2" for="two">2</label>
+<input type="radio" name="days" id="three"><label class="day" prop="3" for="three">3</label>
+<input type="radio" name="days" id="four"><label class="day" prop="4" for="four">4</label>
+<input type="radio" name="days" id="five"><label class="day" prop="5" for="five">5</label>
+<input type="radio" name="days" id="six"><label class="day" prop="6" for="six">6</label>
+<input type="radio" name="days" id="seven"><label class="day" prop="7" for="seven">7</label>
+<input type="radio" name="days" id="eight"><label class="day" prop="8" for="eight">8</label>
+<input type="radio" name="days" id="nine"><label class="day" prop="9" for="nine">9</label>
+<input type="radio" name="days"  id="ten"><label class="day" prop="10" for="ten">10</label>
+<input type="radio" name="days"  id="eleven"><label class="day" prop="11" for="eleven">11</label>
+<input type="radio" name="days"  id="twelve"><label class="day" prop="12" for="twelve">12</label>
+<input type="radio" name="days"  id="thirteen"><label class="day" prop="13" for="thirteen">13</label>
+<input type="radio" name="days"  id="fourteen"><label class="day" prop="14" for="fourteen">14</label>
+<input type="radio" name="days"  id="fifteen"><label class="day" prop="15" for="fifteen">15</label>
+<input type="radio" name="days"  id="sixteen"><label class="day" prop="16" for="sixteen">16</label>
+<input type="radio" name="days"  id="seventeen"><label class="day" prop="17" for="seventeen">17</label>
+<input type="radio" name="days"  id="eightteen"><label class="day" prop="18" for="eightteen">18</label>
+<input type="radio" name="days"  id="nineteen"><label class="day" prop="19" for="nineteen">19</label>
+<input type="radio" name="days"  id="twenty"><label class="day" prop="20" for="twenty">20</label>
+<input type="radio" name="days"  id="twentyone"><label class="day" prop="21" for="twentyone">21</label>
+<input type="radio" name="days"  id="twentytwo"><label class="day" prop="22" for="twentytwo">22</label>
+<input type="radio" name="days"  id="twentythree"><label class="day" prop="23" for="twentythree">23</label>
+<input type="radio" name="days"  id="twentyfour"><label class="day" prop="24" for="twentyfour">24</label>
+<input type="radio" name="days"  id="twentyfive"><label class="day" prop="25" for="twentyfive">25</label>
+<input type="radio" name="days"  id="twentysix"><label class="day" prop="26" for="twentysix">26</label>
+<input type="radio" name="days"  id="twentyseven"><label class="day" prop="27" for="twentyseven">27</label>
+<input type="radio" name="days"  id="twentyeight"><label class="day" prop="28" for="twentyeight">28</label>
+<input type="radio" name="days"  id="twentynine"><label class="day" prop="29" for="twentynine">29</label>
+<input type="radio" name="days"  id="thirty"><label class="day" prop="30" for="thirty">30</label>
+<input type="radio" name="days"  id="thirtyone"><label class="day" prop="31" for="thirtyone">31</label>
+                    </div>
+
+
+                    </div>
+                    </div>
+                    </div>   
+                    </div>
+                    </div>
+                    </div>  
+                    </div>
+                    </div>
+                    </div>                      
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+     
+   
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn" onclick="javascript:alert('Du har nu bokat!')">Boka</button>
+    </div>
+     <h1>Barnkalas</h1>
+     <p>
+På söndagar erbjuder vi möjligheten att ha barnkalas i bowlinghallen:<p></p>
+
+<p>Bowling i 1 timme (4 barn/bana)
+Pizza, läsk & glassbomb.
+195 kronor/barn</p>
+
+<p>Godispåse (bör förbeställas)
+25 kronor/barn</p>
+
+<p>resent till födelsedagsbarnet!</p>
+
+
+		<h1 class="minititel">ATT TÄNKA PÅ!</h1>
+<p>Bowlingen börjar den tid ni bokar.
+För att ni ska kunna utnyttja all tid är det viktigt att
+ni har samling 15 minuter innan spelstart.
+Då behöver vi alla kalasdeltagares förnamn, sedan får alla
+hämta ut sina skor.</p>
+
+<p>Vi har staket på samtliga banor för de allra minsta.</p>
+
+<p>För bokning ring: 08-642 25 00, eller besök oss i bowlinghallen.</p>
+
+
+<p>Välkomna!</p>
+     
+  </div>
+  
+  
+</form>
+  
+  
+  	
+	  </td>
+</tr>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+table, th, td {
+    border: 1px solid black;
+}
+	
+	
+
+	
+	
+	
+	
+	
+.centrera {
+		 text-align: center;
+		 border: 3px;
+		 padding: 120px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+   list-style-type: none;
+
+}
+
+
+li {
+
+    border-right:1px solid #bbb;
+    float:left;
+}
+
+
+	li:last-child {
+    border-right: none;
+}
+
+
+li a {
+    display: block;
+    color: white;
+
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+	width:150px;
+}
+
+
+
+li a:hover:not(.active) {
+    background-color:#FF16C3;
+}
+
+
+	.active {
+    background-color:#FF16C3;
+}
+	
+	
+	
+
+	
+#box2 {
+	background color: solid black;
+	widht:20;
+	height: auto;
+	border: 100px solid black;
+	opacity:0.9;
+	margin-right: 300px;
+	margin-left: 300px;		
+}
+	
+	
+ .tabellstats {
+	font-family: "Verdana","sans-serif";
+	font-size: 25px;
+	font-weight: bold 3px;
+	text-decoration-color: white;
+	background-color:black;
+	text-align: center;
+	border:3px solid;
+	padding: 15px;              
+}
+	
+	
+	
+
+	
+td {
+	background-color:black;
+	opacity: 0.9;
+	width:300px;
+	border-style:solid;
+	border-width:1px;
+
+	padding:15px;
+
+	font-size: 25px;
+}
+	
+	
+th {
+	background-color:black;
+	opacity: 0.9;
+	width:300px;
+	border-style:solid;
+	border-width:1px;
+
+	padding:15px;
+
+	font-size: 25px;
+}
+
+
+
+
+table {
+	width: 910px;
+	margin:auto;
+ 	border-collapse: separate;
+}
+
+p {
+	color:white;
+	font-size: 15px;
+}
+
+
+
+
+.bilder {
+	width:auto;
+	height:100px;
+	background-color: white; 
+	align:right; 
+
+}
+
+
+
+h1 {
+	color:white;
+	font-size: 30px;
+
+}
+
+body {
+	background: url(Bilder/svartvagg.jpg);
+}
+	
